@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+
+<title>FORMB</title>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <!-- Navbar content -->
+            <h3 class="navbar-brand">
+                <center>Form B(Industry Suoervisor Assesment)</center>
+            </h3>
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <h4>Part A</h4>
+        <form method="post" action="/addname">
+
+            <div class="form-group">
+                <label>Enter Your Full Name</label>
+                <input class="form-control" type="text" name="name" placeholder="Full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Position Held in Comapny</label>
+                <input class="form-control" type="text" name="position" placeholder="Position held in Company" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input class="form-control" type="text" name="email" placeholder="Email" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label>Company Address/Location</label>
+                <input class="form-control" type="text" name="address" placeholder="Company Adress" required>
+            </div>
+            <div class="form-group">
+                <label>Student Matric Number</label>
+                <input class="form-control" type="text" name="matric_no" placeholder="Student Matric No" required>
+            </div>
+
+
+            <br>
+            <h4>Part B</h4>
+            <hr/>
+            <section class="example-section">
+                <label class="example-margin">Student's performance:</label><br>
+                <div name="performance">
+                    <input class="form-check-input" type="radio" name="performance" value="excellent">Excellent<br>
+                    <input class="form-check-input" type="radio" name="performance" value="very_good">Very Good<br>
+                    <input class="form-check-input" type="radio" name="performance" value="fair">Fair<br>
+                    <input class="form-check-input" type="radio" name="performance" value="poor">Poor
+                </div>
+            </section>
+
+            <section class="example-section">
+                <label class="example-margin">Student's punctuality:</label><br>
+                <div name="punctuality">
+                    <input class="form-check-input" type="radio" name="punctuality" value="excellent">Excellent<br>
+                    <input class="form-check-input" type="radio" name="punctuality" value="very_good">Very Good<br>
+                    <input class="form-check-input" type="radio" name="punctuality" value="fair">Fair<br>
+                    <input class="form-check-input" type="radio" name="punctuality" value="poor">Poor
+                </div>
+            </section><br>
+
+
+            <section class="example-section">
+                <label class="example-margin">Student's integrity:</label><br>
+                <div name="integrity">
+                    <input class="form-check-input" type="radio" name="integrity" value="excellent">Excellent<br>
+                    <input class="form-check-input" type="radio" name="integrity" value="very_good">Very Good<br>
+                    <input class="form-check-input" type="radio" name="integrity" value="fair">Fair<br>
+                    <input class="form-check-input" type="radio" name="integrity" value="poor">Poor
+                </div>
+            </section><br/>
+
+            <div class="form-group">
+                <div><label class="example-margin">Rate Student contribution to the company:</label></div>
+                <select class="form-control" name="contribution" required>
+                    <option value="">Select Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
+                </select>
+                </section><br>
+
+
+
+                <section class="example-section">
+                    <div><label class="example-margin">Rate Student Team Work:</label></div>
+                    <select class="form-control" name="team" required>
+                        <option value="">Select Option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">Rate Student strength to work:</label></div>
+                    <select class="form-control" name="strength" required>
+                        <option value="">Select Option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">Rate Student communication skill:</label></div>
+                    <select class="form-control" name="communication" required>
+                        <option value="">Select Option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">Rate Student leadership skill:</label></div>
+                    <select class="form-control" name="skill">
+                        <option value="">Select Option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                </select>
+                </section><br>
+
+                <section class="example-section">
+                    <div> <label class="example-margin">Would you like to Hire student?:</label></div>
+                    <select class="form-control" name="hire">
+                        <option value="">Select Option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="maybe">Maybe</option>
+                    </select>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">What is student response to assignment given?:</label><br></div>
+                    <div name="response">
+                        <input class="form-check-input" type="radio" name="response" value="excellent">Excellent<br>
+                        <input class="form-check-input" type="radio" name="response" value="very_good">Very Good<br>
+                        <input class="form-check-input" type="radio" name="response" value="fair">Fair<br>
+                        <input class="form-check-input" type="radio" name="response" value="poor">Poor
+                    </div>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">Would accept more students into your organisation from this instiutuion?:</label><br></div>
+                    <select class="form-control" name="more">
+                        <option value="" name="more">Select Option</option>
+                        <option value="yes" name="more">Yes</option>
+                        <option value="no" name="more">No</option>
+                        <option value="maybe" name="more">Maybe</option>
+                </select>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">How Resourceful is this student?:</label><br></div>
+                    <div name="resourceful">
+                        <input class="form-check-input" type="radio" name="resourceful" value="excellent">Excellent<br>
+                        <input class="form-check-input" type="radio" name="resourceful" value="very_good">Very Good<br>
+                        <input class="form-check-input" type="radio" name="resourceful" value="fair">Fair<br>
+                        <input class="form-check-input" type="radio" name="resourceful" value="poor">Poor
+                    </div>
+                </section><br>
+
+                <section class="example-section">
+                    <div><label class="example-margin">Summary About the student(Student Personality):</label></div>
+                    <select class="form-control" name="about">
+                        <option value="">Select Option</option>
+                        <option value="creative">Creative</option>
+                        <option value="resourcefull">Resourceful</option>
+                        <option value="integrity_inclined">Integrity Inclined</option>
+                        <option value="honesty">Honesty</option>
+                        <option value="curiosity">Curiosity</option>
+                    </select>
+                </section><br>
+                <div><input class="btn btn-primary" type="submit" value="Submit"></div>
+        </form>
+        </div>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>
